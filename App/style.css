@@ -1,0 +1,237 @@
+.cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont img {
+    width: 300px;
+    height: 350px;
+}
+
+.cont1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1 p a {
+    text-decoration: none;
+}
+
+.money {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.money h2 {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.money button {
+    background-color: rgb(173, 59, 25);
+    border-color: transparent;
+    color: orange;
+    font-size: 20px;
+}
+
+.checked {
+        color: orange;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.star p a {
+    text-decoration: none;
+}
+
+
+.butn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.butn button {
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 4px;
+}
+
+.btn button {
+    padding: 18px 50px;
+    margin-top: 20px;
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.btn button i {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 30px;
+}   
+
+
+.btn button:hover {
+    background-color: #ffffff;
+    border-style: solid;
+    color: rgb(8, 8, 8);
+    border-color: #000000;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon i {
+    color: orange;
+}
+
+.whole {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.header h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.header input {
+    padding: 20px 90px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.header button {
+    padding: 15px 30px;
+    background-color: orange;
+    border-radius: 10px;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    gap: 10px;
+}
+
+.categories h3 a {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: orange;
+    text-decoration: none;
+}   
+
+.categories h3 a:hover{
+    color: rgb(151, 120, 63);
+}
+
+.categories1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 650px;
+    gap: 10px;
+}
+
+.categories1 h3 a {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: orange;
+    text-decoration: none;
+}
+
+.categories1 h3 a:hover {
+    color: rgb(151, 120, 63);
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.mens h2 {
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: orange;
+    align-content: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: 900px;
+    margin-left: 500px;
+}
+
+.mens1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll-cont {
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-cont img {
+    padding: 10px;
+}
+
+.all-images img {
+    width: 474px;
+}
+
+.all-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.mens-shoe img {
+    width: 205px;
+    border-radius: 10px;
+}
+
+.sho1 {
+    display: flex;
+    flex-direction: row;
+}
